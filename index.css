@@ -6,7 +6,7 @@ div.header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.648) ;
+    background-color: rgb(5, 7, 5) ;
     border: solid rgb(234, 230, 230) 2px;
     display: flex;
     align-items: center;
@@ -17,6 +17,7 @@ body {
     background-image: linear-gradient(rgb(25, 32, 24), rgb(5, 7, 5));
     min-height: 100vh;
     padding-top: 70px;
+    overflow-x: hidden;
 }
 
 div.main{
@@ -26,7 +27,7 @@ div.main{
     gap: 10px;
     justify-content: center;
     color: rgb(234, 230, 230);
-    font-family: "Philosopher", sans-serif;
+    font-family: "Philosopher",
 }
 
 div.main h1{
@@ -36,6 +37,38 @@ div.main a img{
     height: 250px;
 }
 
-div.main a{
+div.main a{ 
     border: rgb(234, 230, 230) solid 2px;
 }
+
+div.main a:hover{
+    transform: scale(115%);
+    transition: 250ms ease-out;
+    cursor: pointer;
+}
+
+div.pics{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    margin: 20px;
+    margin-top: 75px;
+    animation: moving-imgs 15s linear infinite;
+}
+
+div.pics img{
+    height: 200px;
+    width: 200px;
+    border: rgb(234, 230, 230) solid 1px;
+}
+
+@keyframes moving-imgs{
+    0%{
+        transform: translateX(-76%);
+    }  
+    100% {
+            transform: translateX(50%);
+    }
+}
+
