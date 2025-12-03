@@ -42,3 +42,11 @@ body {
     color: rgb(234, 230, 230); 
     font-family: "philosopher";
 }
+
+div.Progression{
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+}

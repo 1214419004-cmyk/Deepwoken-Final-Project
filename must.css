@@ -13,7 +13,6 @@ div.header {
     border: solid rgb(234, 230, 230) 2px;
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 50px;
 }
 
@@ -40,4 +39,6 @@ body {
     min-height: 100vh;
     padding-top: 70px;
     overflow-x: hidden;
+    color: rgb(234, 230, 230); 
+    font-family: "philosopher";
 }
