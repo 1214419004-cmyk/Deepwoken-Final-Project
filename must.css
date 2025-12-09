@@ -42,3 +42,24 @@ body {
     color: rgb(234, 230, 230); 
     font-family: "philosopher";
 }
+
+div.lore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+}
+
+div.bigimg img{
+    border: solid 2px rgb(234, 230, 230);
+    height: 400px;
+}
+
+div.bigimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
