@@ -43,10 +43,22 @@ body {
     font-family: "philosopher";
 }
 
-div.Progression{
+div.Progressionheader{
     display: flex;
     flex-direction: column;
-    position: absolute; 
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+div.Progression{
+    margin-top: 25px;
+}
+
+li{
+    font-size:27px;
+}
+
+li p{
+    font-size: 19px;
 }
